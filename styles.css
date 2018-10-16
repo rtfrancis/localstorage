@@ -1,9 +1,51 @@
+* {
+    box-sizing: border-box;
+}
 .dark {
-    background: black;
-    color: darkgrey;
+    background: #26221d;
+    color: #c13834;
 }
 
+.darkInlay {
+    background: #543632;
+}
+.darkButton {
+    border: 1px solid #26221d;
+    background: #26221d;
+}
 .light {
-    background: #93aa9e;
-    color: #ccd7c0;
+    background-color: #fbfbf5;
+    color: #93aa9e;
+}
+
+.lightInlay {
+    background-color: #ccd7c0;
+}
+.lightButton {
+    border: 1px solid #fbfbf5;
+    background: #fbfbf5;
+}
+
+.textbox {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+
+    text-align: center;
+    position: absolute;
+    top: calc(50% - 150px);
+    left: calc(50% - 200px);
+    padding-top: 30px;
+}
+
+.button {
+    margin-top: 50px;
+    border-radius: 25px;
+    width: 200px;
+    margin: 40px auto;
+}
+
+.button:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
